@@ -1,0 +1,15 @@
+{
+    "require": {
+        "symfony/routing": "^3.2",
+        "symfony/http-foundation": "^3.2",
+        "symfony/http-kernel": "^3.2",
+        "mcustiel/php-simple-config": "^2.0",
+        "firebase/php-jwt": "^4.0",
+        "guzzlehttp/guzzle": "^6.2",
+        "phpunit/phpunit": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {"Aiskander\\ApiApp\\": "src/"}
+    }
+
+}
